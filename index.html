@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalPage</title>
+    <style>
+        .pictureBlock{
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 40px;
+        }
+        #personPicture{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%; /* 设置边框半径为50%，将图片裁剪成圆形 */
+            overflow: hidden; /* 隐藏超出圆形区域的部分 */
+            object-fit: cover; /* 保持图片的原始比例，并裁剪以适应圆形框 */
+        }
+        .bottomBlock{
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 40px;
+            font-size: 12px;
+        }
+        .middleBlock{
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 15px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="pictureBlock">
+        <img src="微信头像.jpg" alt="赵保亮" id="personPicture">
+    </div>
+    <div class="middleBlock">
+        <p>我的网站</p>
+        <p>我的网站</p>
+        <p>我的网站</p>
+        <p>我的网站</p>
+        <p>我的网站</p>
+        <p>我的网站</p>
+    </div>
+    <div class="bottomBlock">
+        <p>我的网站</p>
+        <a href="">友情链接</a>
+    </div>
+</body>
+</html>
